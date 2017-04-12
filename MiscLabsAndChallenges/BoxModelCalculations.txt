@@ -1,0 +1,4 @@
+Total height: 212
+Total width: 462
+Browser height: 172
+Browser widght: 422

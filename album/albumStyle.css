@@ -1,0 +1,38 @@
+#trackListing{
+	background: white;
+	border: solid 2pt #2b2e35;
+	width: 50%;
+	font-family: 'Helvetica', 'Arial';
+	font-size: 10pt;
+	font-style: italic;		
+}
+#categories{
+	color: #f4f7fc;
+	background-color: #70a9bc;
+}
+.tables{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	
+	padding-bottom: 20pt;
+	padding-top: 20pt;
+	cursor: pointer;
+}
+#content {      
+  padding-left: 10pt;   
+  color: #2b2e35;
+  text-align: center;
+  font-size: 20;
+  font-weight: bold;
+  transition: 1s;   
+}
+#arrow{  
+  transition: 1s;
+  transform: rotate(0deg);    
+}
+#buttonwrapper{	
+	width: 50%;
+	margin: auto;
+}
+

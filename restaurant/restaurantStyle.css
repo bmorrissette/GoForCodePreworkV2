@@ -1,0 +1,43 @@
+#banner{		
+	text-align: center;
+	font-family: 'Sans-Serif', 'Helvetica';
+	font-weight: 900;
+	font-size: 28pt;
+	color: white;		
+	background-color: #f79711;
+	margin: 2pt;
+	vertical-align: bottom;	
+}
+.links{	
+	text-align: center;
+}
+.links ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;	
+}
+#footer{
+	text-align: center;
+	color: #f79711;
+}
+a {
+	color: black;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	font-weight: bold;
+}
+a:active{
+	text-decoration: none;
+}
+#ticker{
+	font-size: 20pt;
+	font-style: italic;
+	color: #f79711;
+	text-align: center;
+}
+.index-home{
+	color: #1FCF75;
+}

@@ -1,0 +1,253 @@
+<!-- Doctype HTML -->
+<html>
+	<head>
+		<link href="albumStyle.css"	rel="stylesheet" type="text/css" />
+		<script src="albumInfo.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+		<style>		
+		.wrapper{
+			text-align: center;
+			margin: 0 auto;
+			width: 100%;
+		}
+		.memberList {			
+			list-style: circle;			
+			font-style: italic;
+			}
+		#cover{
+			background-image: url("act5Cover.jpg");
+			width: 168pt;
+			height: 168pt;
+		}
+		.art {			
+			padding: 10pt;
+			padding-bottom: 20pt;			
+			background: #2b2e35;
+			font-family: 'Helvetica', 'Arial';			
+			color: #1FCF75;
+			width: 100%;	
+			margin: 0 auto;
+			}
+		a {
+			color: #2b2e35;
+			text-decoration: none;			
+		}
+		a:visited{
+			text-decoration:none;
+		}	
+		a:hover{
+			text-decoration: none;
+			color: #1FCF75;			
+		}
+		a:active{
+			text-decoration: none;			
+		}
+		.index-home{
+			color: #1FCF75;
+			text-align: center;
+			
+		}			
+		.contentWrap{
+			background: #e8f9f0;
+			width: 70%;
+			margin: 0 auto;
+			padding: 20pt;
+			margin-top:0pt;
+		}
+		.btn-circle {
+                width: 80px;
+                height: 80px;
+                text-align: center;
+                padding: 6px 0;
+                font-size: 12px;
+                line-height: 1.42;
+                border-radius: 80px;
+                background:white;
+                border-color: #1FCF75;
+                outline: none;
+                font-size:20pt;
+            }
+            .btn-circle:hover {
+                background: #e8f9f0;
+                color: #1FCF75;
+                outline: none;
+            }
+            .btn-circle:active {
+                background: #e8f9f0;
+                color: #1FCF75;
+                outline: none;
+            }
+            .btn-circle:focus {
+                background: #e8f9f0;
+                color: #1FCF75;
+                outline: none;
+            }
+            .btn-circle:active {
+                background: #e8f9f0;
+                color: #1FCF75;
+                outline: none;
+            }
+            .btn-circle:focus{
+                outline: none !important;
+            }
+		</style>
+		<title>Act V: Hymns with the Devil in Confessional</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="albumInfo" class="art img-rounded col-xs-12">				
+					<h2 class="col-xs-12">Act V: Hymns with the Devil in Confessional</h2><br>
+					<div class="col-xs-3"></div>
+					<div class="dropdown links col-xs-2">
+						<button id="menuButton" class="btn btn-circle dropdown-toggle" type="button" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+						</button>
+							<ul class="dropdown-menu">
+								<li><a href="../index.html">Portfolio Home</a></li>
+								<li><a href="../restaurant/home.html">Restaurant Page</a></li>
+								<li><a href="albumInfo.html">Album Page</a></li>
+								<li><a href="../MiscLabsAndChallenges/links.html">Misc Labs</a></li>
+							</ul>
+                    </div>
+					<div class="col-xs-2">
+						<center><div id="cover" class="img-circle"></div></center>
+					</div>
+					<div class="col-xs-2">
+						<button class="btn btn-circle mailto" type="button" onclick="window.location.href='mailto:Brandon.Morrissette@LibertyMutual.com';"><span class="glyphicon glyphicon-envelope"></span>
+						</button>
+					</div>
+				</div>
+			<div class="contentWrap">			
+				<div id="members" style= "font-family: 'Helvetica', 'Arial'; font-size: 10pt; text-align: center;">
+					<center>
+						<h2><a href="http://thedearhunter.com">The Dear Hunter</a></h2>				
+						September 9, 2016	
+						<h3>Band Members and Producers</h3>	
+					</center>
+					<table align="center" class="table-responsive">
+						<tr>
+							<td>
+								<ul class="memberList">
+									<li class="memberList">Casey Crescenzo - Vocals, Guitar, Piano</li>
+									<li class="memberList">Nick Crescenzo - Drums, Back up Vocals</li>
+									<li class="memberList">Maxwell Tousseau - Guitar, Back up Vocals</li>
+									<li class="memberList">Nick Sollecito - Guitar, Piano, Back up Vocals</li>
+									<li class="memberList">Robert Parr - Bass, Back up Vocals</li>
+									<li class="memberList">Gavin Castleton - Guitar, Piano, Back up Vocals</li>
+									<li class="memberList">Produced by Casey Crescenzo</li>								
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tables">
+					<div id="buttonWrapper" class="img-rounded" onmouseover="hover();" onmouseout="reset();">
+						<a href="#tableWrapper" data-toggle="collapse">
+							<span id="content">
+								<span id="trackList">Track List</span>
+							</span>					
+							<span class="glyphicon glyphicon-chevron-down arrow" id="arrow" style="opacity:0;">
+							</span>
+						</a>				
+					</div>
+					<div id="tableWrapper"  class="collapse">
+						<table width="100%" id="trackListing" align="center" class="table-responsive table-striped table-hover" >					
+							<tr id="categories">
+								<th>Track #</th>
+								<th>Track Title</th>
+								<th>Track Length</th>
+							</tr>
+							<tr onclick="window.open('https://www.youtube.com/watch?v=XjE2Te1ixg0#');">
+								<td>1</td>
+								<td>Regress</td>
+								<td>1:22</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=82');">
+								<td>2</td>
+								<td>The Moon/Awake</td>
+								<td>6:09</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=450');">
+								<td>3</td>
+								<td>Cascade</td>
+								<td>5:11</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=762');">
+								<td>4</td>
+								<td>The Most Cursed Of Hands/Who Am I</td>
+								<td>6:42</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=1165');">
+								<td>5</td>
+								<td>The Revival</td>
+								<td>5:00</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=1469');">
+								<td>6</td>
+								<td>Melpomene</td>
+								<td>4:14</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=1719');">
+								<td>7</td>
+								<td>Mr. Usher (On His Way to Town)</td>
+								<td>4:59</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=2018');"> 
+								<td>8</td>
+								<td>The Haves Have Naught</td>
+								<td>4:12</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=2277');">
+								<td>9</td>
+								<td>Light</td>
+								<td>4:02</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=2519');">
+								<td>10</td>
+								<td>Gloria</td>
+								<td>5:16</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=2836');">
+								<td>11</td>
+								<td>The Flame(Is Gone)</td>
+								<td>5:40</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=3178');">
+								<td>12</td>
+								<td>The Fire(Remains)</td>
+								<td>5:26</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=3503');">
+								<td>13</td>
+								<td>The March</td>
+								<td>4:12</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=3756');">
+								<td>14</td>
+								<td>Blood</td>
+								<td>4:33</td>
+							</tr>
+							<tr onclick="window.open('https://youtu.be/XjE2Te1ixg0?t=4031');">
+								<td>15</td>
+								<td>A Beginning</td>
+								<td>6:19</td>
+							</tr>			
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</body>
+	<footer style="background: #e8f9f0">
+		<div class="col-lg-12">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4" align="center"><a href="../index.html"><span class="glyphicon glyphicon-home index-home"></span></a></div>
+		</div>
+	</footer>
+</html>
+		
+	
+	
